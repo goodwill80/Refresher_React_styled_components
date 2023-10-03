@@ -1,13 +1,15 @@
 import { Button } from './Components/Button.style';
+import { Container } from './Components/Container.style';
+import { GlobalStyles } from './GlobalStyles.styles';
 
 function App() {
   return (
     <>
-      <div>
-        <Button>Click this button</Button>
-        <Button>Click this button</Button>
-        <Button>Click this button</Button>
-      </div>
+      {/* Put global style anywhere in App */}
+      <GlobalStyles />
+      <Container>
+        <Button buttonLabel="Click this" backgroundColor="violet"></Button>
+      </Container>
     </>
   );
 }

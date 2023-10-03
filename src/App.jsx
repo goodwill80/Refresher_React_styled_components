@@ -1,4 +1,4 @@
-import { Button } from './Components/Button.style';
+import { Button, SubmitButton } from './Components/Button.style';
 import { Container } from './Components/Container.style';
 import { GlobalStyles } from './GlobalStyles.styles';
 
@@ -9,6 +9,7 @@ function App() {
       <GlobalStyles />
       <Container>
         <Button buttonLabel="Click this" backgroundColor="violet"></Button>
+        <SubmitButton buttonLabel="Submit">Submit</SubmitButton>
       </Container>
     </>
   );

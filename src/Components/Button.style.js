@@ -22,6 +22,16 @@ export const Button = styled(ButtonType)`
   }
 `;
 
+export const SubmitButton = styled(ButtonType).attrs({
+  type: 'submit',
+})`
+  box-shadow: 0 9px #999;
+  &:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+`;
+
 // export const Button = styled.button`
 //   width: 200px;
 //   height: 50px;
